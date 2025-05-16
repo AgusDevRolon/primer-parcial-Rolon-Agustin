@@ -21,6 +21,8 @@ header h1 {
 /* ==== Artículos ==== */
 article {
   margin: 30px auto;
+  justify-content: center;
+  display: flex;
 }
 
 /* ==== Títulos y subtítulos ==== */
@@ -39,8 +41,12 @@ article label {
 /* ==== Formularios ==== */
 input.form-control {
   border-radius: 8px;
-  padding: 10px;
+  padding: 20px;
   border: 1px solid #dacecf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 /* ==== Botones ==== */
